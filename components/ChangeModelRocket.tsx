@@ -9,7 +9,7 @@ export default function ChangeModelRocket() {
         <p className="mt-4 font-raleway text-lg text-white">
           Hopefully this is good text combination, questrial and raleway.
           Then this is where the rest of the text would go, explaining the
-          chosen model, why it was chose n and what results would be
+          chosen modelllll, why it was chose n and what results would be
           expected from it&apos;s application.
         </p>
 

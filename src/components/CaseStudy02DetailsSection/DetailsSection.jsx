@@ -104,8 +104,8 @@ const titleBlocks = [
               key={`title-${index}`}
               className="flex flex-col w-[596px] h-[109px] items-start absolute"
               style={{
-                top: titleBlock.top,
-                bottom: titleBlock.bottom,
+                ...(titleBlock.top != null && { top: titleBlock.top }),
+                ...(titleBlock.bottom != null && { bottom: titleBlock.bottom }),
                 left: titleBlock.left,
               }}
             >
@@ -125,8 +125,8 @@ const titleBlocks = [
               key={`description-${blockIndex}`}
               className="flex flex-col h-[252px] items-start absolute"
               style={{
-                top: block.top,
-                bottom: block.bottom,
+                ...(block.top != null && { top: block.top }),
+                ...(block.bottom != null && { bottom: block.bottom }),
                 left: block.left,
                 width: block.width,
               }}

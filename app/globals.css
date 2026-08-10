@@ -1,0 +1,178 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button,
+  input,
+  select,
+  textarea {
+    @apply appearance-none bg-transparent border-0 outline-none;
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .all-unset {
+    all: unset;
+  }
+}
+
+:root {
+  --profilekosh-framer-website-inter-regular-font-family: "Inter", Helvetica;
+  --profilekosh-framer-website-inter-regular-font-size: 28px;
+  --profilekosh-framer-website-inter-regular-font-style: normal;
+  --profilekosh-framer-website-inter-regular-font-weight: 400;
+  --profilekosh-framer-website-inter-regular-letter-spacing: 0px;
+  --profilekosh-framer-website-inter-regular-line-height: 33.599998474121094px;
+  --profilekosh-framer-website-pixelify-sans-bold-font-family: var(--font-pixelify-sans), "Pixelify Sans", Helvetica;
+  --profilekosh-framer-website-pixelify-sans-bold-font-size: 80px;
+  --profilekosh-framer-website-pixelify-sans-bold-font-style: normal;
+  --profilekosh-framer-website-pixelify-sans-bold-font-weight: 700;
+  --profilekosh-framer-website-pixelify-sans-bold-letter-spacing: 0px;
+  --profilekosh-framer-website-pixelify-sans-bold-line-height: 96px;
+  --profilekosh-framer-website-pixelify-sans-regular-font-family: "Pixelify Sans", Helvetica;
+  --profilekosh-framer-website-pixelify-sans-regular-font-size: 200px;
+  --profilekosh-framer-website-pixelify-sans-regular-font-style: normal;
+  --profilekosh-framer-website-pixelify-sans-regular-font-weight: 400;
+  --profilekosh-framer-website-pixelify-sans-regular-letter-spacing: 0px;
+  --profilekosh-framer-website-pixelify-sans-regular-line-height: 240px;
+  --profilekosh-framer-website-potta-one-regular-font-family: "Potta One", Helvetica;
+  --profilekosh-framer-website-potta-one-regular-font-size: 100px;
+  --profilekosh-framer-website-potta-one-regular-font-style: normal;
+  --profilekosh-framer-website-potta-one-regular-font-weight: 400;
+  --profilekosh-framer-website-potta-one-regular-letter-spacing: 0px;
+  --profilekosh-framer-website-potta-one-regular-line-height: 120px;
+  --profilekosh-framer-website-raleway-bold-font-family: "Raleway", Helvetica;
+  --profilekosh-framer-website-raleway-bold-font-size: 35px;
+  --profilekosh-framer-website-raleway-bold-font-style: normal;
+  --profilekosh-framer-website-raleway-bold-font-weight: 700;
+  --profilekosh-framer-website-raleway-bold-letter-spacing: 0px;
+  --profilekosh-framer-website-raleway-bold-line-height: 42px;
+  --profilekosh-framer-website-raleway-extrabold-font-family: "Raleway", Helvetica;
+  --profilekosh-framer-website-raleway-extrabold-font-size: 28px;
+  --profilekosh-framer-website-raleway-extrabold-font-style: normal;
+  --profilekosh-framer-website-raleway-extrabold-font-weight: 800;
+  --profilekosh-framer-website-raleway-extrabold-letter-spacing: 0px;
+  --profilekosh-framer-website-raleway-extrabold-line-height: 33.599998474121094px;
+  --profilekosh-framer-website-raleway-regular-font-family: "Raleway", Helvetica;
+  --profilekosh-framer-website-raleway-regular-font-size: 28px;
+  --profilekosh-framer-website-raleway-regular-font-style: normal;
+  --profilekosh-framer-website-raleway-regular-font-weight: 400;
+  --profilekosh-framer-website-raleway-regular-letter-spacing: 0px;
+  --profilekosh-framer-website-raleway-regular-line-height: 33.599998474121094px;
+}
+
+:root {
+  --animate-spin: spin 1s linear infinite;
+}
+
+.animate-fade-in {
+  animation: fade-in 1s var(--animation-delay, 0s) ease forwards;
+}
+
+.animate-fade-up {
+  animation: fade-up 1s var(--animation-delay, 0s) ease forwards;
+}
+
+.animate-marquee {
+  animation: marquee var(--duration) infinite linear;
+}
+
+.animate-marquee-vertical {
+  animation: marquee-vertical var(--duration) linear infinite;
+}
+
+.animate-shimmer {
+  animation: shimmer 8s infinite;
+}
+
+.animate-spin {
+  animation: var(--animate-spin);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes image-glow {
+  0% {
+    opacity: 0;
+    animation-timing-function: cubic-bezier(0.74, 0.25, 0.76, 1);
+  }
+
+  10% {
+    opacity: 0.7;
+    animation-timing-function: cubic-bezier(0.12, 0.01, 0.08, 0.99);
+  }
+
+  to {
+    opacity: 0.4;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes shimmer {
+  0%,
+  90%,
+  to {
+    background-position: calc(-100% - var(--shimmer-width)) 0;
+  }
+
+  30%,
+  60% {
+    background-position: calc(100% + var(--shimmer-width)) 0;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0);
+  }
+
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+@keyframes marquee-vertical {
+  0% {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(calc(-100% - var(--gap)));
+  }
+}
+
+html { scroll-behavior: smooth; }
+body { background-color: #000; margin: 0; }
+

@@ -3,10 +3,11 @@ import { CaseStudy01HeroSection } from "./CaseStudy01HeroSection/HeroSection.jsx
 import { CaseStudy02DetailsSection } from "./CaseStudy02DetailsSection/DetailsSection.jsx";
 import { ChangeModelOverviewSection } from "./ChangeModelOverviewSection/OverviewSection.jsx";
 import image1 from "./image.svg";
-import logoMaskGroup from "../../public/logo-mask-group.svg";
 import maskGroup from "./mask-group.svg";
 import textMaskGroup from "./text-mask-group.svg";
 import vector2 from "./vector-2.svg";
+
+const logoMaskGroup = "/logo-mask-group.svg";
 
 const modelIcons = [
   { src: "/w6az5cqqg56d95eapz7zp6mh6k-png.png", top: 1973, left: 412 },

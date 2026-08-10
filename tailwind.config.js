@@ -1,5 +1,8 @@
 module.exports = {
-    content: ["./src/**/*.{html,js,ts,jsx,tsx}"],
+    content: [
+      "./app/**/*.{html,js,ts,jsx,tsx}",
+      "./src/**/*.{html,js,ts,jsx,tsx}",
+    ],
     corePlugins: { preflight: true },
     theme: {
       extend: {

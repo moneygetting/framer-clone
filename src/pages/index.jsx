@@ -1,6 +1,6 @@
-import { CaseStudy01HeroSection } from "./components/CaseStudy01HeroSection/HeroSection.jsx";
-import { CaseStudy02DetailsSection } from "./components/CaseStudy02DetailsSection/DetailsSection.jsx";
-import { ChangeModelOverviewSection } from "./components/ChangeModelOverviewSection/OverviewSection.jsx";
+import { CaseStudy01HeroSection } from "../components/CaseStudy01HeroSection/HeroSection.jsx";
+import { CaseStudy02DetailsSection } from "../components/CaseStudy02DetailsSection/DetailsSection.jsx";
+import { ChangeModelOverviewSection } from "../components/ChangeModelOverviewSection/OverviewSection.jsx";
 
 const logoMaskGroup = "/logo-mask-group.svg";
 

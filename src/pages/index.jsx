@@ -1,11 +1,6 @@
-import bottomMaskGroup from "../bottom-mask-group.svg";
-import { CaseStudy01HeroSection } from "../components/CaseStudy01HeroSection/HeroSection.jsx";
-import { CaseStudy02DetailsSection } from "../components/CaseStudy02DetailsSection/DetailsSection.jsx";
-import { ChangeModelOverviewSection } from "../components/ChangeModelOverviewSection/OverviewSection.jsx";
-import image1 from "../image.svg";
-import maskGroup from "../mask-group.svg";
-import textMaskGroup from "../text-mask-group.svg";
-import vector2 from "../vector-2.svg";
+import { CaseStudy01HeroSection } from "./components/CaseStudy01HeroSection/HeroSection.jsx";
+import { CaseStudy02DetailsSection } from "./components/CaseStudy02DetailsSection/DetailsSection.jsx";
+import { ChangeModelOverviewSection } from "./components/ChangeModelOverviewSection/OverviewSection.jsx";
 
 const logoMaskGroup = "/logo-mask-group.svg";
 
@@ -48,13 +43,13 @@ export const EndOfBodystart = () => {
               <img
                 className="relative h-2.5 w-[97px]"
                 alt=""
-                src={textMaskGroup}
+                src="/text-mask-group.svg"
               />
             </div>
             <img
               className="absolute left-0 top-0 h-full w-full object-cover"
               alt=""
-              src={bottomMaskGroup}
+              src="/bottom-mask-group.svg"
             />
             <div className="absolute left-0 top-0 h-full w-full rounded-[11px] bg-[#ffffff01] opacity-[0.04] shadow-[inset_0px_0px_0px_1px_#000000]" />
           </div>
@@ -64,7 +59,7 @@ export const EndOfBodystart = () => {
       <img
         className="absolute left-1 top-0 h-[115px] w-[calc(100%_-_4px)] object-cover"
         alt=""
-        src={maskGroup}
+        src="/mask-group.svg"
       />
       <section
         className="absolute left-3.5 top-[412px] flex h-[217px] w-[450px] flex-col items-start"
@@ -179,7 +174,7 @@ export const EndOfBodystart = () => {
           <img
             className="absolute left-[17.19%] top-[-2165.37%] h-[2265.37%] w-[82.81%] rotate-[50deg]"
             alt=""
-            src={image1}
+            src="/image.svg"
           />
         </div>
       </div>
@@ -191,7 +186,7 @@ export const EndOfBodystart = () => {
           <img
             className="absolute left-[17.19%] top-[-2165.37%] h-[2265.37%] w-[82.81%] rotate-[50deg]"
             alt=""
-            src={vector2}
+            src="/vector-2.svg"
           />
         </div>
       </div>

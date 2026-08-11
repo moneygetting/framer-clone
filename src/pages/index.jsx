@@ -25,7 +25,7 @@ const changeModelHeadings = [
   { top: 2980, left: 651 },
 ];
 
-export const EndOfBodystart = () => {
+export default function EndOfBodystart() {
   return (
     <main className="relative min-h-[8292px] min-w-[1289px] w-full overflow-hidden bg-[#080808]">
       <div className="absolute left-[-37px] top-[26px] flex h-[8258px] w-[1289px] items-end overflow-y-scroll bg-[linear-gradient(0deg,rgba(8,8,8,1)_0%,rgba(8,8,8,1)_100%),linear-gradient(0deg,rgba(255,255,255,1)_0%,rgba(255,255,255,1)_100%)]">
@@ -235,4 +235,4 @@ export const EndOfBodystart = () => {
       </section>
     </main>
   );
-};
+}

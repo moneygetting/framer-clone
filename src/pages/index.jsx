@@ -1,7 +1,7 @@
 import bottomMaskGroup from "./bottom-mask-group.svg";
-import { CaseStudy01HeroSection } from "./CaseStudy01HeroSection/HeroSection.jsx";
-import { CaseStudy02DetailsSection } from "./CaseStudy02DetailsSection/DetailsSection.jsx";
-import { ChangeModelOverviewSection } from "./ChangeModelOverviewSection/OverviewSection.jsx";
+import { CaseStudy01HeroSection } from "../components/CaseStudy01HeroSection/HeroSection.jsx";
+import { CaseStudy02DetailsSection } from "../components/CaseStudy02DetailsSection/DetailsSection.jsx";
+import { ChangeModelOverviewSection } from "../components/ChangeModelOverviewSection/OverviewSection.jsx";
 import image1 from "./image.svg";
 import maskGroup from "./mask-group.svg";
 import textMaskGroup from "./text-mask-group.svg";

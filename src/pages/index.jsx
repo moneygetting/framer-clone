@@ -3,7 +3,7 @@ import { CaseStudy01HeroSection } from "../components/CaseStudy01HeroSection/Her
 import { CaseStudy02DetailsSection } from "../components/CaseStudy02DetailsSection/DetailsSection.jsx";
 import { ChangeModelOverviewSection } from "../components/ChangeModelOverviewSection/OverviewSection.jsx";
 import image1 from "../image.svg";
-import maskGroup from ../mask-group.svg";
+import maskGroup from "../mask-group.svg";
 import textMaskGroup from "../text-mask-group.svg";
 import vector2 from "../vector-2.svg";
 
